@@ -9,6 +9,12 @@ For peripheral DMA RAM etc. practicing
 
     * SRAM4 support all DMA ( MDMA, DMA1, DMA2 and BDMA )  
 
+
+
+### 06.05.2025
+- (Demo) USB-HS /DMA
+- Delay 100ms before MX_USB_DEVICE_Init(), until USB3300 power stable before init, so PC can detect usb correctly
+
 ### 09.04.2025
 - (Demo) USB-HS /DMA
 - fix:Problem with STM32H747 HS USB DMA.  
